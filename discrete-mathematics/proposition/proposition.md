@@ -1,5 +1,4 @@
 # What is the "Propositional logic"
-***
 ## Introduction (about Proposition)
 --> A propositional statement is a declarative statement that is **either true or false, but not both.**
 
