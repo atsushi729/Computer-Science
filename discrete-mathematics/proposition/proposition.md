@@ -1,4 +1,7 @@
 # What is the "Propositional logic"
+
+<br>
+
 ## Introduction (about Proposition)
 --> A propositional statement is a declarative statement that is **either true or false, but not both.**
 
@@ -6,6 +9,8 @@
 * Tokyo is the capital of Japan. → This is proposition(because statement is true)
 * 1 + 2 = 4 → This is proposition(because statement is false)
 * $x = y$ → This is **not** proposition(because there is no way to identify value of x).
+
+<br>
 
 ## Propositional variable
 To avoid writing long and repetitive propositions, we use proposition variable:<br>
@@ -15,6 +20,8 @@ A propositional variable is typically a letter, like **p, q, r**.
 * p : Tokyo is the capital of Japan.
 * q : 2 + 2 = 4
 * r : 2 < 3
+
+<br>
 
 ## Truth table
 --> A truth table is a tabular representation of all the possible combination of its constituent variable.
@@ -77,6 +84,8 @@ A propositional variable is typically a letter, like **p, q, r**.
   </tbody>
 </table>
 
+
+<br>
 
 ## Truth set
 --> Let *p* be a proposition on a set *S*. The truth set of *p* is the set of elements of *S* for which *p* is true.<br>
