@@ -1,6 +1,6 @@
 # Networking
 
-## What is Protcol?
+## Protcol
 As human, we speak same language like English, Chinese, Japanese etc..
 In IT world, computer also need to speak same language to communicatie each other.
 
@@ -14,7 +14,7 @@ It is the name of all communication style which computer use to talk each other.
 
 ## TCP/IP
 * Physical layer
-  This layer support physical devise to interract with computers
+  This layer support physical devise to interract with computers<br>
   e.g. cable
 
 * Data link layer
