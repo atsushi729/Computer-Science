@@ -1,4 +1,4 @@
-# bits and byts and networking
+# Networking
 
 ## What is Protcol?
 As human, we speak same language like English, Chinese, Japanese etc..
