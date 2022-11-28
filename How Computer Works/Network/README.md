@@ -12,7 +12,7 @@ It is defined set of standards which computers need to follow to talk each other
 It is the name of all communication style which computer use to talk each other.
 
 
-## The TCP/IP
+## TCP/IP
 * Physical layer
   This layer support physical devise to interract with computers
   e.g. cable
