@@ -8,7 +8,7 @@ In this case, language is called *Protocol*.
 It is defined set of standards which computers need to follow to talk each other.
 
 
-## Computer networking
+### Computer networking
 It is the name of all communication style which computer use to talk each other.
 
 
