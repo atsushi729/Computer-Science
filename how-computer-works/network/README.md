@@ -13,16 +13,16 @@ It is the name of all communication style which computer use to talk each other.
 
 
 ## TCP/IP
-* Physical layer
+* Physical layer<br>
   This layer support physical devise to interract with computers<br>
   e.g. cable
 
-* Data link layer
-  This layer is responsible for defining rule how to communicate with each computers.
-  The most common commucation rule is Ethernet with MAC address.
-  *Ethernet* is communication rule which is commonly used in PC network to provide common interface for sender and receiver.
-  This layer support communication method for computers which is connected directoly via bridge(L2 switch).
-  FF:FF:FF:FF:FF:FF is used for Ethernet broadcast traffic.
+* Data link layer<br>
+  This layer is responsible for defining rule how to communicate with each computers.<br>
+  The most common commucation rule is Ethernet with MAC address.<br>
+  *Ethernet* is communication rule which is commonly used in PC network to provide common interface for sender and receiver.<br>
+  This layer support communication method for computers which is connected directoly via bridge(L2 switch).<br>
+  FF:FF:FF:FF:FF:FF is used for Ethernet broadcast traffic.<br>
 
 
 * Network layer
