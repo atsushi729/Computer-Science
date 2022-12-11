@@ -16,7 +16,9 @@ It is the name of all communication style which computer use to talk each other.
 ### What is TCP/IP
 TCP/IP is most common way to send data over the internet by providing end-to-end communications that identify how it should be broken into packets, addressed, transmitted, routed and received at the destination.
 
-TCP/IP can be divided by 4 parts which is application, transport, internet and network/interface layer. Each layer has specific purpose and function.I'm going to descrive about each layer following section.
+TCP/IP can be divided by 5 parts which is application, transport, network, data link and pysical layer. Each layer has specific purpose and function.I'm going to descrive about each layer following section.
+
+![image](https://user-images.githubusercontent.com/75428655/206905713-375a52ca-f3ce-4951-86d7-02664fdcdf4e.png)
 
 
 
@@ -32,7 +34,8 @@ TCP/IP can be divided by 4 parts which is application, transport, internet and n
   FF:FF:FF:FF:FF:FF is used for Ethernet broadcast traffic.<br>
 
 
-* Network layer
+* Network layer<br>
+The network layer is responsible for routing data packets from the source to the destination across multiple networks, and it provides logical addressing and routing services to ensure that data is delivered reliably and efficiently.
 
 
 
