@@ -10,11 +10,11 @@ X : 123.56.777.89 is not IP address because 777 is larger than 8 bit(255).
 ### Dynamic and Static IP address
 There are two types of IP address exist which is Dynamic and Static IP address.<br>
 
-#### Dynamic IP address
+####  - Dynamic IP address
 A dynamic IP address is a temporary address that is assigned to a device each time it connects to the network.<br>
 Because dynamic IP addresses can change, they are not as reliable for hosting websites or other services that require a consistent, known address.
 
-#### Static IP address
+####  - Static IP address
 A static IP address, on the other hand, is a permanent address that is assigned to a device by the network administrator. Because a static IP address does not change, it is more suitable for hosting services and other applications that require a consistent, known IP address.
 
 
@@ -55,3 +55,35 @@ The network portion identifies the network that the host is on, and the host por
 
 
 * Classes D and E are reserved for special purposes and are not used for host addressing.
+
+## Subnet masks
+A subnet mask is a 32-bit number that is used to divide an IP address into network and host parts. It is used to identify the network and the host on which the IP address resides.<br>
+
+A subnet mask consists of a sequence of ones (1) followed by a sequence of zeros (0).<br>
+For example, a subnet mask of 255.255.255.0 has 24 ones and 8 zeros. <br>
+The ones in the subnet mask represent the network part of the IP address, and the zeros represent the host part of the IP address.<br>
+
+IP address consist of 4 octet number. Each octet represent 8bit it means 0-255. However subnet mask can actually use 1-254 because we cannot use 0 and 255.<br>
+Note : avaiable host IDs space have 256 address available, not 254 because other IP address is still IP address.
+
+* 0・・・generally not use
+* 255・・reserved as a broadcast address for the subnet
+
+
+how to use subnet mast
+```
+IP adress       : 255 . 255 . 255 . 224
+Subnet mask : 11111111 . 11111111 . 11111111 . 11100000
+→last 32 is available for host ID
+```
+
+
+
+
+## Router
+In networking, a router is a device that forwards data packets between computer networks. <br>
+Routers use headers and forwarding tables to determine the best path for forwarding the packets, and they use protocols such as TCP/IP to communicate with each other and configure the best route between any two hosts. <br>
+
+A router is connected to at least two networks, commonly two LANs or WANs or a LAN and its ISP's network. When a data packet comes in on one of the lines, the router reads the address information in the packet to determine its ultimate destination.  <br>
+
+Then, using information in its routing table or routing policy, it directs the packet to the next network on its journey.
