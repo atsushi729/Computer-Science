@@ -62,3 +62,5 @@ Data packets are used in Internet Protocol (IP) transmissions for data that navi
 * Unicast transmission is used when one device transmits data to another device. A unicast transmission is always meant for just one receiving address.
 * Multicast transmission is used when one device send data to multiple devices. 
 * Broadcast transmission is used when one device sends data to every device on a LAN. 
+
+### subnet
