@@ -56,6 +56,8 @@ The network portion identifies the network that the host is on, and the host por
 
 * Classes D and E are reserved for special purposes and are not used for host addressing.
 
+![address class](https://user-images.githubusercontent.com/75428655/207469176-8e418357-b2dd-4d0d-a488-2d785ac930cc.png)
+
 ## Subnet masks
 A subnet mask is a 32-bit number that is used to divide an IP address into network and host parts. It is used to identify the network and the host on which the IP address resides.<br>
 
