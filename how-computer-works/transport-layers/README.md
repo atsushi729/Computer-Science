@@ -13,21 +13,21 @@ The Transmission Control Protocol (TCP) header is a part of the TCP packet that 
 
 The TCP header is typically 20 bytes long and consists of a series of fields that contain various types of information. Some of the main fields in the TCP header include:
 
-Source port: This field identifies the port on the sending device that is sending the data.
+* Source port: This field identifies the port on the sending device that is sending the data.
 
-Destination port: This field identifies the port on the receiving device that is receiving the data.
+* Destination port: This field identifies the port on the receiving device that is receiving the data.
 
-Sequence number: This field contains a number that is used to identify the order in which the data is being transmitted.
+* Sequence number: This field contains a number that is used to identify the order in which the data is being transmitted.
 
-Acknowledgement number: This field contains a number that is used to acknowledge the receipt of data by the receiving device.
+* Acknowledgement number: This field contains a number that is used to acknowledge the receipt of data by the receiving device.
 
-Header length: This field specifies the length of the TCP header in 32-bit words.
+* Header length: This field specifies the length of the TCP header in 32-bit words.
 
-Control flags: This field contains a series of flags that are used to control the flow of data between the two devices. Some of the most common flags include the SYN flag, which is used to establish a connection, and the FIN flag, which is used to close a connection.
+* Control flags: This field contains a series of flags that are used to control the flow of data between the two devices. Some of the most common flags include the SYN flag, which is used to establish a connection, and the FIN flag, which is used to close a connection.
 
-Window size: This field specifies the amount of data that the receiving device is willing to accept at one time.
+* Window size: This field specifies the amount of data that the receiving device is willing to accept at one time.
 
-Checksum: This field contains a checksum that is used to verify the integrity of the data being transmitted.
+* Checksum: This field contains a checksum that is used to verify the integrity of the data being transmitted.
 
 The TCP header is an important part of the TCP protocol, as it helps to ensure that data is transmitted reliably and efficiently between devices.
 
