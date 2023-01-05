@@ -36,31 +36,3 @@ TCP/IP can be divided by 5 parts which is application, transport, network, data 
 
 * Network layer<br>
 The network layer is responsible for routing data packets from the source to the destination across multiple networks, and it provides logical addressing and routing services to ensure that data is delivered reliably and efficiently.
-
-
-
-## Data Link layer
-### CSMA/CD
-A Carrier Sense Multiple Access with Collision Detection (CSMA/CD) is the one of the way to communicate method used by Ethernet. 
-This method is used to avoid collision data. Before send data to another computer, CSMA/CD will check wether data is sending on wire or not. 
-If data is not sending or existing data, then computer can send data to another computer. 
-
-<img width="1152" alt="CSMA:CD" src="https://user-images.githubusercontent.com/75428655/206595146-b7b27bac-f8dc-4798-9683-a2c3367c2be0.png">
-
-
-
-
-### MAC Adress
-A media access control address (MAC address) is a unique identifier to an individual network interface. MAC address is a 48-bit number usually denoted by six groupings of two hexadecimal number. 
-note : MAC address is grobally unique. 
-
-### Data packet
-A data packet is a unit of data made into a single package which is being sent across a network link.
-Data packets are used in Internet Protocol (IP) transmissions for data that navigates the Web, and in other kinds of networks.
-
-
-* Unicast transmission is used when one device transmits data to another device. A unicast transmission is always meant for just one receiving address.
-* Multicast transmission is used when one device send data to multiple devices. 
-* Broadcast transmission is used when one device sends data to every device on a LAN. 
-
-### subnet

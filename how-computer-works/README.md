@@ -2,7 +2,7 @@
 In this section, I would like to describe how computer work. 
 
 ## Outline
-* [TCP/IP](/how-computer-works/network/README.md)
+* [TCP/IP](/how-computer-works/tcp-ip/README.md)
 * [Physical Layers](/how-computer-works/physical-layer/README.md)
 * [Data Link Layer]()
 * [Network Layer]()
