@@ -44,8 +44,21 @@ S={1,2,3}.    |S| = 3<br>
 P(S) = {∅,{1},{2},{3},{1,2},{1,3},{2,3},{1,2,3}}<br>
 | P(S) | = 8 = 23 = 2^|S|<br>
 
+![set_image.png](set_image.png)
 
 ### Set operations
-the union of two sets is a new set that contains all the elements from both of the original sets. 
+#### Union (A U B)
+The union of two sets is a new set that contains all the elements from both of the original sets A and B. 
 Symbolically, if A and B are sets, then the union of A and B is denoted as A ∪ B and is defined as the set of all elements that belong to either A or B, or to both.
-For example, if A = {1, 2, 3} and B = {2, 3, 4}, then A ∪ B = {1, 2, 3, 4}.
+For example, if A = {1, 2, 3} and B = {2, 3, 4}, then A ∪ B = {1, 2, 3, 4}.<br>
+■Formula<br>
+A U B = {x | x ∈ A or x ∈ B}
+
+#### Intersection (A ∩ B)
+The intersection of two sets is a new set that contains only the elements that are common to both of the original sets. 
+Symbolically, if A and B are sets, then the intersection of A and B is denoted as A ∩ B and is defined as the set of all elements that belong to both A and B. 
+For example, if A = {1, 2, 3} and B = {2, 3, 4}, then A ∩ B = {2, 3}.<br>
+■Formula<br>
+A ∩ B = { x | x ∈ A and x ∈ B }<br>
+
+![intersection.png](intersection.png)
