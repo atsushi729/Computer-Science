@@ -62,3 +62,5 @@ For example, if A = {1, 2, 3} and B = {2, 3, 4}, then A ∩ B = {2, 3}.<br>
 A ∩ B = { x | x ∈ A and x ∈ B }<br>
 
 ![intersection.png](intersection.png)
+
+#### not or
