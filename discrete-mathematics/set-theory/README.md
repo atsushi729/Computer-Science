@@ -77,8 +77,8 @@ A - B = { x | x ∈ A and x ∉ B }
 ![set-difference.png](set-difference.png)
 
 ### Symmetric difference (A ⊕ B )
-Given two sets A and B, the symmetric difference is containing all element A and B but not both. 
-for example, if A = {1, 2, 3} and B = {2, 3, 4, 5}, then A ⊕ B = {1, 4, 5}.<br>
+Given two sets A and B, the symmetric difference is containing all element A and B but not both. <br>
+For example, if A = {1, 2, 3} and B = {2, 3, 4, 5}, then A ⊕ B = {1, 4, 5}.<br>
 
 
 ■Formula<br>
