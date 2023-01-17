@@ -46,19 +46,43 @@ P(S) = {∅,{1},{2},{3},{1,2},{1,3},{2,3},{1,2,3}}<br>
 
 ![set_image.png](set_image.png)
 
-### Set operations
-#### Union (A U B)
+## Set operations
+### Union (A U B)
 The union of two sets is a new set that contains all the elements from both of the original sets A and B. 
 Symbolically, if A and B are sets, then the union of A and B is denoted as A ∪ B and is defined as the set of all elements that belong to either A or B, or to both.
-For example, if A = {1, 2, 3} and B = {2, 3, 4}, then A ∪ B = {1, 2, 3, 4}.<br>
+For example, if A = {1, 3, 4, 5} and B = {1, 2, 3}, then A ∪ B = {1, 2, 3, 4, 5}.<br>
+
 ■Formula<br>
 A U B = {x | x ∈ A or x ∈ B}
 
-#### Intersection (A ∩ B)
+![union.png](union.png)
+
+### Intersection (A ∩ B)
 The intersection of two sets is a new set that contains only the elements that are common to both of the original sets. 
 Symbolically, if A and B are sets, then the intersection of A and B is denoted as A ∩ B and is defined as the set of all elements that belong to both A and B. 
-For example, if A = {1, 2, 3} and B = {2, 3, 4}, then A ∩ B = {2, 3}.<br>
+For example, if A = {1, 3, 4, 5} and B = {1, 2, 3}, then A ∩ B = {1, 3}.<br>
+
 ■Formula<br>
 A ∩ B = { x | x ∈ A and x ∈ B }<br>
 
 ![intersection.png](intersection.png)
+
+### Set difference(A - B)
+The set difference in discrete mathematics is that given two sets A and B, all element A, but not in B.<br>
+For example, if A = {1, 2, 3} and B = {2, 3, 4}, then A - B = {1}.<br>
+
+■Formula<br>
+A - B = { x | x ∈ A and x ∉ B }
+
+![set-difference.png](set-difference.png)
+
+### Symmetric difference (A ⊕ B )
+Given two sets A and B, the symmetric difference is containing all element A and B but not both. 
+for example, if A = {1, 2, 3} and B = {2, 3, 4, 5}, then A ⊕ B = {1, 4, 5}.<br>
+
+
+■Formula<br>
+A ⊕ B = { x | (x ∈ A or x ∈ B) and x ∉ A ∩ B}
+A ⊕ B = (A U B) – (A ∩ B)
+
+![symmetric-difference.png](symmetric-difference.png)
