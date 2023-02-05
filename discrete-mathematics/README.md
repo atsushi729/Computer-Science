@@ -5,3 +5,4 @@ In this field, we mainly use discrete objects like rational numbers, people, hou
 * [Set theory](/discrete-mathematics/set-theory/README.md)
 * [Proposition](/discrete-mathematics/proposition/README.md)
 * [Predicates and quantifiers](/discrete-mathematics/predicates-and-quentifiers/README.md)
+* [Recursion](/discrete-mathematics/recurision/README.md)
