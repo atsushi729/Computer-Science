@@ -8,3 +8,4 @@ In this field, we mainly use discrete objects like rational numbers, people, hou
 * [Proof](/discrete-mathematics/proof/README.md)
 * [Recursion](/discrete-mathematics/recurision/README.md)
 * [Graph](/discrete-mathematics/graph/README.md)
+* [Relation](/discrete-mathematics/relation/README.md)
