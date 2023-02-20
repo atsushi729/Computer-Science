@@ -3,7 +3,7 @@
 Relations may exist between objects of the same set or between objects of two or more sets.
 
 ### Reflexivity
-
+Reflexive relation is a relation of elements of a set A such that each element of the set is related to itself.
 ### Symmetry
 
 ### Anti-symmetry
