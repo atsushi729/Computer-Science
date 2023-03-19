@@ -1,5 +1,5 @@
 # What is algorithm
-
+An algorithm is a set of well-defined instructions or a step-by-step procedure that is used to solve a problem or accomplish a specific task
 
 ## Dijkstra's algorithm
 ### Definiton
@@ -32,3 +32,12 @@ Prim’s algorithm is used to find the Minimum Spanning Tree for a given graph.
 
 ## Kruskal’s algorithm
 ### Definiton
+Kruskal’s algorithm is the concept that is introduced in the graph theory of discrete mathematics. It is used to discover the shortest path between two points in a connected weighted graph.
+
+
+### STEP
+
+---
+1. start with the `cheapest` edges in the spanning tree ※that’s all
+2. repeatedly add the cheapest edges that does not create cycle
+*Note : Should not create “**cycle”** because it should be tree.*
