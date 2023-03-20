@@ -21,7 +21,7 @@ Prim’s algorithm is used to find the Minimum Spanning Tree for a given graph.
 > 1. Pick a node and connect it to its nearest node.
 > 2. Examine the connected nodes and connect them to the nearest unconnected node.<br>
 > *Note : chose smallest node which connected nodes*
-> 3. Repeat step 2 until all nodes are connected.**
+> 3. Repeat step 2 until all nodes are connected.
 
 ## Kruskal’s algorithm
 ### Definiton
@@ -29,6 +29,6 @@ Kruskal’s algorithm is the concept that is introduced in the graph theory of d
 
 
 ### STEP
-> 1. start with the `cheapest` edges in the spanning tree ※that’s all
-> 2. repeatedly add the cheapest edges that does not create cycle
+> 1. start with the `cheapest` edges in the spanning tree ※that’s all.<br>
+> 2. repeatedly add the cheapest edges that does not create cycle.<br>
 > *Note : Should not create “**cycle”** because it should be tree.*
